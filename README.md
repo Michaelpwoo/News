@@ -33,6 +33,8 @@ I would add SwiftLint to enforce good programming practices, add more tests, add
 Some of the UI can be seperated in a SPM, this is to demonstrate modularity and code reusability when working on an iOS application.
 
 # UI
-<img width="259" alt="Screenshot 2023-10-10 at 4 16 58 PM" src="https://github.com/Michaelpwoo/News/assets/6344231/aa7eb189-3309-43f6-98b7-b27eb31bc5b2">
-<img width="259" alt="Screenshot 2023-10-10 at 4 17 14 PM" src="https://github.com/Michaelpwoo/News/assets/6344231/ab5f467b-d118-46b5-8915-7311e6f7d739">
+<img width="259" alt="Screenshot 2023-10-10 at 4 16 58 PM" src="https://github.com/Michaelpwoo/News/assets/6344231/cbbdfb1f-b9ad-4835-8b43-aa241503c42a">
+<img width="259" alt="Screenshot 2023-10-10 at 4 17 14 PM" src="https://github.com/Michaelpwoo/News/assets/6344231/6ff63376-e62a-4862-a120-c63f6b0131c6">
+
+
 
