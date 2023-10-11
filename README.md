@@ -1,6 +1,7 @@
 # News App Example MVVM + Combine 
 1. Go to https://newsdata.io and get an API Key for free. 
 2. Update the Constant.swift with the API Key. 
+
 NOTE:
 If the API Key is not set, it will use the local json file. You will get  warning because the infinite scrolling uses the articleIDs as the unique identifier but the mock repository uses the same 10 articles.
 
@@ -32,5 +33,6 @@ I would add SwiftLint to enforce good programming practices, add more tests, add
 Some of the UI can be seperated in a SPM, this is to demonstrate modularity and code reusability when working on an iOS application.
 
 # UI
-<img width="259" alt="Screenshot 2023-10-10 at 4 16 58 PM" src="https://github.com/Michaelpwoo/News/assets/6344231/3097b84e-aeae-4b64-a706-a1c3a0c02e89">
-<img width="259" alt="Screenshot 2023-10-10 at 4 17 14 PM" src="https://github.com/Michaelpwoo/News/assets/6344231/19a5e8e5-d29d-4ec4-9eea-a7d95fc3641c">
+<img width="259" alt="Screenshot 2023-10-10 at 4 16 58 PM" src="https://github.com/Michaelpwoo/News/assets/6344231/aa7eb189-3309-43f6-98b7-b27eb31bc5b2">
+<img width="259" alt="Screenshot 2023-10-10 at 4 17 14 PM" src="https://github.com/Michaelpwoo/News/assets/6344231/ab5f467b-d118-46b5-8915-7311e6f7d739">
+
