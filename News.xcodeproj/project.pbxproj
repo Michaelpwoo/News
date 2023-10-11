@@ -30,6 +30,7 @@
 		33AFAFCF2AD622F4005202FF /* MockNewsArticleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFAFCE2AD622F4005202FF /* MockNewsArticleRepository.swift */; };
 		33AFAFD12AD62317005202FF /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AFAFD02AD62317005202FF /* PreviewProvider.swift */; };
 		33AFAFD32AD62394005202FF /* ArticleList.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AFAFD22AD62394005202FF /* ArticleList.json */; };
+		33AFAFD72AD62929005202FF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 33AFAFD62AD62929005202FF /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		33AFAFCE2AD622F4005202FF /* MockNewsArticleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNewsArticleRepository.swift; sourceTree = "<group>"; };
 		33AFAFD02AD62317005202FF /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		33AFAFD22AD62394005202FF /* ArticleList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArticleList.json; sourceTree = "<group>"; };
+		33AFAFD62AD62929005202FF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		33AFAF6F2AD620B7005202FF = {
 			isa = PBXGroup;
 			children = (
+				33AFAFD62AD62929005202FF /* .gitignore */,
 				33AFAF7A2AD620B7005202FF /* News */,
 				33AFAF8C2AD620B8005202FF /* NewsTests */,
 				33AFAF962AD620B8005202FF /* NewsUITests */,
@@ -367,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33AFAFD72AD62929005202FF /* .gitignore in Resources */,
 				33AFAF842AD620B8005202FF /* Preview Assets.xcassets in Resources */,
 				33AFAF802AD620B8005202FF /* Assets.xcassets in Resources */,
 				33AFAFD32AD62394005202FF /* ArticleList.json in Resources */,
