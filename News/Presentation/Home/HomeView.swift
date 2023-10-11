@@ -20,7 +20,8 @@ struct HomeView: View {
                             .onTapGesture {
                                 appCoordinator.path.append(newsArticle)
                             }
-                            .frame(width: 400)
+                            .frame(maxWidth: .infinity)
+                            .padding(.horizontal, 2)
                             .onAppear {
                                 viewModel.shouldLoadMoreNewsArticles(newsArticle: newsArticle)
                             }

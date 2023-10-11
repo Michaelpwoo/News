@@ -130,7 +130,6 @@
 				33AFAFA62AD6210C005202FF /* Extension */,
 				33AFAFA92AD6212A005202FF /* Data */,
 				33AFAFB82AD621B8005202FF /* Domain */,
-				33AFAF7F2AD620B8005202FF /* Assets.xcassets */,
 				33AFAFBB2AD621F6005202FF /* Presentation */,
 				33AFAF812AD620B8005202FF /* News.entitlements */,
 				33AFAF822AD620B8005202FF /* Preview Content */,
@@ -211,6 +210,7 @@
 		33AFAFBB2AD621F6005202FF /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				33AFAF7F2AD620B8005202FF /* Assets.xcassets */,
 				33AFAF7B2AD620B7005202FF /* NewsApp.swift */,
 				33AFAFCB2AD622B1005202FF /* Constant.swift */,
 				33AFAFC92AD622A2005202FF /* AppCoordinator.swift */,
