@@ -2,34 +2,30 @@
 //  NewsTests.swift
 //  NewsTests
 //
-//  Created by Michael Woo on 10/10/23.
+//  Created by Michael Woo on 10/2/23.
 //
 
 import XCTest
+@testable import News
 
-final class NewsTests: XCTestCase {
+final class HomeViewModelTests: XCTestCase {
+
+    var sut: HomeViewModel?
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try? super.setUpWithError()
+        let mockNewsArticleRepository = MockNewsArticleRepository()
+        sut = HomeViewModel(newsArticleRepository: mockNewsArticleRepository)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testGetArticles() throws {
+        XCTAssertTrue(sut?.newsArticles.count == 0)
+        
+        sut?.getArticles()
+        
+        XCTAssertTrue(sut?.newsArticles.count == 10)
+        XCTAssertTrue(sut?.newsArticles[0].articleID == "711992b711b603dbbbc64b306463a615")
+        XCTAssertTrue(sut?.newsArticles[0].title == "Hulu Celebrates 25 Years Of \u{2018}Felicity\u{2019}")
+        XCTAssertTrue(sut?.newsArticles[1].articleID == "8980453226305605323d3eddbb5e0250")
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
