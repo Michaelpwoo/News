@@ -38,6 +38,7 @@ class HomeViewModel: ObservableObject {
         isLoading = true
         newsArticleRepository
             .getNewsArticle(pageId: pageId)
+            .receive(on: DispatchQueue.main)
             .handleEvents(receiveOutput:{ [weak self] response in
                 self?.pageId = response.nextPage
                 self?.isLoading = false
