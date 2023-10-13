@@ -17,7 +17,7 @@ Data Layer: low level module like networking, local storage, etc..
 
 Domain Layer: responsible for encapsulating complex business logic. It can be broken down into use cases.
 
-Presentation Layer: responsible for displaying the UI. This can be SwiftUI or UIKIT and any architecture pattern (MVVM, VIPER, TCA, etc..)
+Presentation Layer: responsible for displaying the UI. This can be SwiftUI or UIKIT with any architectural pattern (MVVM, VIPER, TCA, etc..)
 
 With the clear separation of concerns, refactoring the application to use a different architectural pattern only requires updating the presentation layer. The presentation layer does not need to know anything about the low level module and only interacts with the domain layer.
 Since the repository are protocols, we are able to update, refactor, and clean up the data layer without modifying code in the presentation layer. This also allows us to create mock data in the view model and write tests. 
