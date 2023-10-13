@@ -11,7 +11,7 @@ There is in memory caching mechanism to efficiently load images. The LazyVStack 
  
 # What I like about the project? (3 - 4 hours)
 
-The project is based on the Clean Code Architecture with MVVM + Combine. It is essentially broken down into 3 layers.
+The project is based on the Clean Architecture with MVVM + Combine. It is essentially broken down into 3 layers.
 
 Data Layer: low level module like networking, local storage, etc..
 
@@ -22,7 +22,7 @@ Presentation Layer: responsible for displaying the UI. This can be SwiftUI or UI
 With the clear separation of concerns, refactoring the application to use a different architectural pattern only requires updating the presentation layer. The presentation layer does not need to know anything about the low level module and only interacts with the domain layer.
 Since the repository are protocols, we are able to update, refactor, and clean up the data layer without modifying code in the presentation layer. This also allows us to create mock data in the view model and write tests. 
 
-The project is loads a json file that can be used as a fixture and enable to use of previews while developing the app.
+The project loads a json file that can be used as a fixture and enable to use of previews while developing the app.
 
 I've added a test in NewsTests.Swift to mock the API reponse.
 
